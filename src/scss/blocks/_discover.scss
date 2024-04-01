@@ -1,0 +1,40 @@
+.discover {
+  padding: 60px 0;
+
+  overflow: hidden;
+}
+
+.discover__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+
+  @include laptopS {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+.discover__title {
+  margin-bottom: 24px;
+}
+
+.discover__text {
+  margin-bottom: 40px;
+
+  @include laptopS {
+    text-align: center;
+  }
+}
+
+.discover__picture {
+  position: relative;
+
+  @include laptopS {
+    grid-row: -1/1;
+    width: fit-content;
+    justify-self: center;
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "img": "venice.jpg",
+    "alt": "venice",
+    "title": "Venice, Italy",
+    "price": "900"
+  },
+  {
+    "img": "bali.jpg",
+    "alt": "bali",
+    "title": "Bali, Indonesia",
+    "price": "480"
+  },
+  {
+    "img": "bangkok.jpg",
+    "alt": "bangkok",
+    "title": "Bangkok, Thailand",
+    "price": "440"
+  },
+  {
+    "img": "santorini.jpg",
+    "alt": "santorini",
+    "title": "Santorini, Greek",
+    "price": "900"
+  },
+  {
+    "img": "paris.jpg",
+    "alt": "paris",
+    "title": "Paris, France",
+    "price": "1100"
+  },
+  {
+    "img": "new-york.jpg",
+    "alt": "new-york",
+    "title": "New-York, USA",
+    "price": "1800"
+  },
+  {
+    "img": "dubai.jpg",
+    "alt": "dubai",
+    "title": "Dubai, UAE",
+    "price": "900"
+  }
+]

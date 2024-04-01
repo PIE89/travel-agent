@@ -1,0 +1,12 @@
+.slider__btn-next-svg,
+.slider__btn-back-svg {
+  width: 49px;
+  height: 49px;
+  fill: #ffffff;
+  stroke: #b9b9b9;
+
+  &:hover {
+    fill: var(--accent);
+    stroke: #b9b9b9;
+  }
+}

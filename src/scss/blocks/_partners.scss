@@ -1,0 +1,36 @@
+.partners {
+  padding: 60px 0;
+}
+
+.partners__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+
+  @include mobile {
+    flex-direction: column;
+    gap: 34px;
+  }
+}
+
+.partners__content {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+
+  @include laptopS {
+    gap: 20px;
+  }
+
+  @include mobile {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.partners__links {
+  &:hover {
+    opacity: 0.8;
+  }
+}

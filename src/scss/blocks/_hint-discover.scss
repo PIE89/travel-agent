@@ -1,0 +1,101 @@
+.hint-discover {
+  position: absolute;
+  z-index: 1;
+  padding: 12px;
+
+  left: 7%;
+  top: 14.6%;
+
+  border-radius: 12px;
+  box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include laptop {
+    left: 5%;
+    top: 7%;
+  }
+
+  @include mobileXS {
+    padding: 10px;
+    gap: 10px;
+  }
+}
+
+.hint-discover__picture {
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  @include mobileXS {
+    flex-shrink: unset;
+  }
+}
+
+.hint-discover__description {
+  flex-grow: 1;
+
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.hint-discover__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 59px;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+
+  @include mobileXS {
+    gap: 39px;
+    font-size: 15px;
+  }
+}
+
+.hint-discover__rating {
+  position: relative;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    left: -20px;
+    top: 3px;
+    width: 17px;
+    height: 21px;
+
+    background-image: url("./../img/icons/star.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include mobileXS {
+      top: 0;
+    }
+  }
+}
+
+.hint-discover__price {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+
+  span {
+    color: var(--text-muted);
+  }
+
+  i {
+    color: var(--accent);
+    font-style: normal;
+  }
+
+  @include mobileXS {
+    font-size: 14px;
+  }
+}

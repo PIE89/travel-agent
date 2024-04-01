@@ -1,0 +1,47 @@
+<section class="testimonial">
+  <div class="container">
+    <!-- Horizontal slider -->
+    <div class="testimonial-horizontal">
+      <!-- slider -->
+      <div class="swiper" id="testimonial-horizontal-swiper">
+        <div class="swiper-wrapper smooth-transition">
+          @@loop('./templates/card-review.html', './data/testimonial-all.json')
+        </div>
+      </div>
+      <!--// slider -->
+    </div>
+    <!--// Horizontal slider -->
+
+    <!-- 3 Vertical sliders -->
+    <div class="testimonial__grid">
+      <div class="testimonial__col">
+        <!-- slider -->
+        <div class="swiper testimonial__swiper" id="testimonial-col">
+          <div class="swiper-wrapper smooth-transition">
+            @@loop('./templates/card-review.html', './data/testimonial.json')
+          </div>
+        </div>
+        <!--// slider -->
+      </div>
+      <div class="testimonial__col">
+        <!-- slider -->
+        <div class="swiper testimonial__swiper" id="testimonial-col2">
+          <div class="swiper-wrapper smooth-transition">
+            @@loop('./templates/card-review.html', './data/testimonial2.json')
+          </div>
+        </div>
+        <!--// slider -->
+      </div>
+      <div class="testimonial__col">
+        <!-- slider -->
+        <div class="swiper testimonial__swiper" id="testimonial-col3">
+          <div class="swiper-wrapper smooth-transition">
+            @@loop('./templates/card-review.html', './data/testimonial3.json')
+          </div>
+        </div>
+        <!--// slider -->
+      </div>
+    </div>
+    <!--// 3 Vertical sliders -->
+  </div>
+</section>

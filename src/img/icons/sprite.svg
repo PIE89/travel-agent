@@ -1,0 +1,14 @@
+<svg style="display:none;" xmlns="http://www.w3.org/2000/svg">
+
+        <symbol viewBox="0 0 48 49" id="btn-back">
+            <rect x="0.5" y="1.00012" width="47" height="47" rx="23.5"/>
+            <path d="M32 23.5001H19.83L25.42 17.9101L24 16.5001L16 24.5001L24 32.5001L25.41 31.0901L19.83 25.5001H32V23.5001Z" fill="#B9B9B9"/>
+        </symbol>
+        
+        <symbol viewBox="0 0 48 49" id="btn-next">
+            <rect y="0.500122" width="48" height="48" rx="24"/>
+            <path d="M24 16.5001L22.59 17.9101L28.17 23.5001H16V25.5001H28.17L22.59 31.0901L24 32.5001L32 24.5001L24 16.5001Z" fill="#b9b9b9"/>
+        </symbol>
+
+
+</svg>

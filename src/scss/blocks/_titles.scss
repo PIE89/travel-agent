@@ -1,0 +1,62 @@
+.title-1 {
+  color: var(--text-color);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+
+  @include laptopS {
+    font-size: 52px;
+    text-align: center;
+  }
+
+  @include mobile {
+    font-size: 34px;
+  }
+
+  &--decor {
+    position: relative;
+    z-index: 1;
+  }
+
+  &--decor::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+
+    left: 0px;
+    bottom: -12px;
+    width: 268px;
+    height: 24px;
+
+    background-image: url("./../img/discover/underline.svg");
+    background-repeat: no-repeat;
+
+    @include laptopS {
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+  }
+}
+
+.title-2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--font-titles);
+}
+
+.title-3 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--font-titles);
+
+  @include mobile {
+    font-size: 26px;
+  }
+}
+
+.title-4 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-titles);
+}

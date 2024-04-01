@@ -1,0 +1,23 @@
+:root {
+  --container-width: 1230px;
+  --container-padding: 15px;
+
+  --font-main: "CircularStd", sans-serif;
+  --font-accent: "CircularStd", sans-serif;
+  --font-titles: var(--font-accent);
+
+  --page-bg: #fff;
+  --text-color: #181818;
+  --text-muted: #909090;
+  --accent: #34aff4;
+  --link-color: #2578c8;
+
+  --laptop-size: 1199px;
+  --tablet-size: 777px;
+  --mobile-size: 599px;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

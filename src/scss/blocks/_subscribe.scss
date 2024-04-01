@@ -1,0 +1,131 @@
+.subscribe {
+  position: relative;
+
+  padding: 80px 0;
+  background-color: var(--accent);
+  overflow: hidden;
+
+  @include mobileS {
+    padding: 40px 0;
+  }
+}
+
+.subscribe__row {
+  padding-left: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  position: relative;
+  z-index: 10;
+
+  @include laptopS {
+    flex-direction: column;
+    padding-left: unset;
+  }
+}
+
+.subscribe__desc {
+  color: #ffffff;
+
+  h4 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 500;
+
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 24px;
+
+    @include mobile {
+      font-size: 14px;
+    }
+  }
+
+  & > *:not(:last-child) {
+    margin-bottom: 4px;
+  }
+
+  @include mobile {
+    text-align: center;
+  }
+}
+.subscribe__form {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+  @include mobileS {
+    flex-direction: column;
+  }
+}
+
+.subscribe__form-input {
+  flex-grow: 1;
+
+  padding: 13.5px 12px 13.5px 44px;
+
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 150%;
+
+  background-image: url("./../img/icons/email.svg");
+  background-position: 12px 12px;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  &::placeholder {
+    color: var(--text-muted);
+  }
+}
+
+.subscribe__form-btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #181818;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 150%;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @include mobileS {
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+.subscribe__img {
+  position: absolute;
+  left: 26px;
+  top: -22px;
+  width: 236px;
+  height: 273px;
+
+  background-repeat: no-repeat;
+
+  @include mobile {
+    display: none;
+  }
+}

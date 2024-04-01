@@ -1,0 +1,44 @@
+[
+  {
+    "stars": 5,
+    "text": "An outstanding resource for travel enthusiasts! The website's destination reviews and travel advice were spot-on. I now trust their recommendations for all my trips..",
+    "img": "01.svg",
+    "alt": "01",
+    "name": "Hendra Paru Paru"
+  },
+  {
+    "stars": 5,
+    "text": "Amazing experience! The travel website made booking our vacation a breeze. Everything was well-organized, and we had a fantastic time exploring new places. Highly recommend!",
+    "img": "04.svg",
+    "alt": "04",
+    "name": "Nichole Edward"
+  },
+  {
+    "stars": 5,
+    "text": "Lorem ipsum dolor sit amet, Efficient and reliable! The travel website helped me find the best travel deals, and their user-friendly interface made the booking process a breeze.",
+    "img": "07.svg",
+    "alt": "07",
+    "name": "Jonathan R."
+  },
+  {
+    "stars": 5,
+    "text": "An outstanding resource for travel enthusiasts! The website's destination reviews and travel advice were spot-on. I now trust their recommendations for all my trips..",
+    "img": "01.svg",
+    "alt": "01",
+    "name": "Hendra Paru Paru"
+  },
+  {
+    "stars": 5,
+    "text": "Amazing experience! The travel website made booking our vacation a breeze. Everything was well-organized, and we had a fantastic time exploring new places. Highly recommend!",
+    "img": "04.svg",
+    "alt": "04",
+    "name": "Nichole Edward"
+  },
+  {
+    "stars": 5,
+    "text": "Lorem ipsum dolor sit amet, Efficient and reliable! The travel website helped me find the best travel deals, and their user-friendly interface made the booking process a breeze.",
+    "img": "07.svg",
+    "alt": "07",
+    "name": "Jonathan R."
+  }
+]
