@@ -7,7 +7,7 @@
   top: 14.6%;
 
   border-radius: 12px;
-  box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+  box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.169);
   background-color: rgb(255, 255, 255);
 
   display: flex;
@@ -23,6 +23,21 @@
     padding: 10px;
     gap: 10px;
   }
+
+  &--explore {
+    top: 7.678%;
+    right: -7.142%;
+    left: unset;
+  }
+
+  &--exploreJA {
+    border-radius: 82px;
+    bottom: 22.678%;
+    left: -5.714%;
+    top: unset;
+
+    padding: 12px 42px 12px 12px;
+  }
 }
 
 .hint-discover__picture {
@@ -33,6 +48,10 @@
   @include mobileXS {
     flex-shrink: unset;
   }
+
+  &--exploreJA {
+    border-radius: 50%;
+  }
 }
 
 .hint-discover__description {
@@ -41,6 +60,10 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   gap: 4px;
+
+  &--exploreJA {
+    gap: unset;
+  }
 }
 
 .hint-discover__title {
@@ -97,5 +120,11 @@
 
   @include mobileXS {
     font-size: 14px;
+  }
+
+  &--exploreJA span {
+    font-size: 14px;
+    font-weight: 450;
+    text-transform: capitalize;
   }
 }

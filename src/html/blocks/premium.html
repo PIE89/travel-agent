@@ -1,0 +1,41 @@
+<section class="premium">
+  <div class="container">
+    <div class="premium__row">
+      <div class="premium__description">
+        <div class="premium__title">
+          <h2 class="title-2">
+            Embark on unforgettable journeys with our premium travel services
+          </h2>
+          <div class="premium__subtitle">
+            <p class="text">
+              Picture-perfect getaways are just a click away. Find your slice of
+              paradise, whether it's a tropical island, a charming city, or an
+              enchanting countryside retreat.
+            </p>
+          </div>
+        </div>
+
+        <div class="premium__advantage">
+          @@loop('./templates/advantage.html', './data/advantage.json')
+        </div>
+      </div>
+
+      <div class="premium__images">
+        <div class="premium__big-row">
+          <img src="./img/premium/01.jpg" alt="01" />
+        </div>
+
+        <div class="premium__small-row">
+          <img src="./img/premium/02.jpg" alt="02" />
+          <img src="./img/premium/03.jpg" alt="03" />
+        </div>
+
+        <div class="premium__ellipse"></div>
+
+        <div class="premium__customers">
+          @@include('./elements/customers.html')
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

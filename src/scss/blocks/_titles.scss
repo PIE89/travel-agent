@@ -41,8 +41,10 @@
 
 .title-2 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: var(--font-titles);
+  line-height: 120%;
+  text-transform: capitalize;
 }
 
 .title-3 {
@@ -57,6 +59,7 @@
 
 .title-4 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: var(--font-titles);
+  line-height: 140%;
 }
